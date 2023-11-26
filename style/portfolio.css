@@ -223,26 +223,49 @@ main section {
 
 .resume-item-institute {
     color: #757575;
-   
+
     font-size: 20px;
-   
+
     font-weight: 600;
     margin-bottom: 20px;
-    
+
 }
-.resume-item-description{
+
+.resume-item-description {
     color: var(--Dark-03, #757575);
 
-font-size: 16px;
+    font-size: 16px;
 
-font-weight: 400;
+    font-weight: 400;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
-footer{
+
+footer {
     display: flex;
     padding: 130px 200px;
     background: #FFF8F3;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+    gap: 100px;
+}
+.social-link a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type=email],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
